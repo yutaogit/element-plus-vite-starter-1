@@ -36,17 +36,18 @@ function handleClose(key: string, keyPath: string[]) {
         <template #title>
           <span>Group One</span>
         </template>
-        <el-menu-item index="/nav/1/item-1">
+        <el-menu-item index="/nav/tab1/item-1">
           查询监控历史
         </el-menu-item>
-        <el-menu-item index="1-2">
+        <el-menu-item index="/nav/tab1/item-2">
           item two
+        </el-menu-item>
+          <el-menu-item index="/nav/tab1/item-3">
+          item three
         </el-menu-item>
       </el-menu-item-group>
       <el-menu-item-group title="Group Two">
-        <el-menu-item index="1-3">
-          item three
-        </el-menu-item>
+      
       </el-menu-item-group>
       <el-sub-menu index="1-4">
         <template #title>
@@ -65,14 +66,14 @@ function handleClose(key: string, keyPath: string[]) {
         Navigator Two
       </template>
     </el-menu-item>
-    <el-menu-item index="3" disabled>
+    <!-- <el-menu-item index="3" disabled>
       <el-icon>
         <Document />
       </el-icon>
       <template #title>
         Navigator Three
       </template>
-    </el-menu-item>
+    </el-menu-item> -->
     <el-menu-item index="/nav/4">
       <el-icon>
         <Setting />

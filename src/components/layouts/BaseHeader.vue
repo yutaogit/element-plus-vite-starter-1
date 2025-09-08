@@ -9,7 +9,7 @@ import { toggleDark } from '~/composables'
     <el-menu-item index="/">
       <div class="flex items-center justify-center gap-2">
         <div class="text-xl" i-ep-element-plus />
-        <span>Element Plus</span>
+        <span>本钢连铸摄像机</span>
       </div>
     </el-menu-item>
     <el-sub-menu index="2">
@@ -56,11 +56,11 @@ import { toggleDark } from '~/composables'
       </button>
     </el-menu-item>
 
-    <el-menu-item h="full">
+    <!-- <el-menu-item h="full">
       <a class="size-full flex items-center justify-center" :href="repository.url" target="_blank">
         <div i-ri-github-fill />
       </a>
-    </el-menu-item>
+    </el-menu-item> -->
   </el-menu>
 </template>
 
